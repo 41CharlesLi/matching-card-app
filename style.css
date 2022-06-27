@@ -1,134 +1,134 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .grid {
-  height: 710px;
-  width: 1080px;
-  margin: auto;
+    height: 710px;
+    width: 1080px;
+    margin: auto;
 }
 
 @media (max-width: 1000px) {
-  .grid {
-    height: 50vh;
-    width: 50vw;
-  }
-  img {
-    height: 25vh;
-    width: 25vw;
-  }
+    .grid {
+        height: 50vh;
+        width: 50vw;
+    }
+    img {
+        height: 25vh;
+        width: 25vw;
+    }
 }
 
 h2 {
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 20px;
-  font-family: "Graduate", cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: "Graduate", cursive;
 }
 
 h1 {
-  font-size: 100px;
-  text-align: center;
+    font-size: 100px;
+    text-align: center;
 }
 
 .questionContainer {
-  margin: auto;
-  width: 60vw;
-  height: 100vh;
-  background-color: rgba(172, 46, 46, 0.91);
-  color: white;
-  position: absolute;
-  left: 20%;
-  top: 0%;
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
+    margin: auto;
+    width: 60vw;
+    height: 100vh;
+    background-color: rgba(172, 46, 46, 0.91);
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
 }
 
 .btn {
-  font-size: xx-large;
-  font-family: "Roboto", sans-serif;
-  margin: auto;
-  margin-top: 50px;
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
-    0 0 40px #140bca, 0 0 50px #0b0bca;
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #0ba9ca, 0 0 30px #0ba9ca,
+        0 0 40px #140bca, 0 0 50px #0b0bca;
 }
 
 .restart {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 #question {
-  font-size: 50px;
-  text-align: center;
-  margin: 100px;
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
 }
 
 .correct {
-  background-color: rgb(6, 78, 6);
-  color: white;
+    background-color: rgb(6, 78, 6);
+    color: white;
 }
 
 .titleLogo {
-  width: 15%;
-  height: 15%;
-  max-width: 300px;
-  margin-top: 10px;
+    width: 15%;
+    height: 15%;
+    max-width: 300px;
+    margin-top: 10px;
 }
 
 .titleLogo:hover {
-  transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .card {
-  border-radius: 5%;
-  padding:2px;
-  transition: 0.2s all ease-in-out;
+    border-radius: 5%;
+    padding: 2px;
+    transition: 0.4s all ease-in-out;
 }
 
 .card:hover {
-  transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
 }
 
 body {
-  background-image: url("imgs/court.jpg");
+    background-image: url("imgs/court.jpg");
 }
 
 .winningGif {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 footer {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  font-family: "Roboto", sans-serif;
-  font-size: larger;
-  margin: 3px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-family: "Roboto", sans-serif;
+    font-size: larger;
+    margin: 3px;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a {
-  color: black;
+    color: black;
 }
 
 #nbaJam {
-  position: absolute;
-  top: 35%;
-  left: 34%;
+    position: absolute;
+    top: 35%;
+    left: 34%;
 }
