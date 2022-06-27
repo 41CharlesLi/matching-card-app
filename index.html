@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NBA Quiz App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </head>
+
+  <body>
+    <h1><img src="./imgs/titlelogo.png" alt="nba logo" class="titleLogo" /></h1>
+
+    <h2>Score:<span id="result"></span></h2>
+    <img src="./imgs/dirk.gif" class="winningGif" />
+    <button class="btn restart">Play Again? Really?</button>
+
+    <audio src="./audio/NBCtheme.mp3" id="mainTheme"></audio>
+    <audio src="./audio/airball.mp3" id="airBall"></audio>
+    <audio src="./audio/onfire.mp3" id="onFire"></audio>
+
+    <div class="grid"></div>
+    <div class="questionContainer">
+      <div id="question-container" class="hide">
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid"></div>
+      </div>
+    </div>
+    <iframe
+      src="https://www.retrogames.cc/embed/28374-nba-jam-usa-europe-v1-1.html"
+      width="600"
+      height="450"
+      frameborder="no"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      scrolling="no"
+      id="nbaJam"
+    ></iframe>
+    <footer>
+      Created at
+      <a href="https://junocollege.com/" target="_blank">Juno College</a>
+    </footer>
+  
+  </body>
+</html>
+
